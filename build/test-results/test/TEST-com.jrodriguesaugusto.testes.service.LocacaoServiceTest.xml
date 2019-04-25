@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jrodriguesaugusto.testes.service.LocacaoServiceTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-04-25T12:24:11" hostname="LAPTOP-5IOH8A39" time="0.3">
+  <properties/>
+  <testcase name="deveAlugarFilme" classname="com.jrodriguesaugusto.testes.service.LocacaoServiceTest" time="0.235"/>
+  <testcase name="naoDeveAlugarFilmeParaNegativadoSPC" classname="com.jrodriguesaugusto.testes.service.LocacaoServiceTest" time="0.014"/>
+  <testcase name="deveEnviarEmailParaLocacoesAtrasadas" classname="com.jrodriguesaugusto.testes.service.LocacaoServiceTest" time="0.009"/>
+  <testcase name="deveDevolverNaSegundaAoAlugarNoSabado" classname="com.jrodriguesaugusto.testes.service.LocacaoServiceTest" time="0.008"/>
+  <testcase name="naoDeveAlugarFilmeSemEstoque" classname="com.jrodriguesaugusto.testes.service.LocacaoServiceTest" time="0.003"/>
+  <testcase name="deveProrrogarUmaLocacao" classname="com.jrodriguesaugusto.testes.service.LocacaoServiceTest" time="0.008"/>
+  <testcase name="deveAlugarFilme_SemCalcularValor" classname="com.jrodriguesaugusto.testes.service.LocacaoServiceTest" time="0.011"/>
+  <testcase name="naoDeveAlugarFilmeSemUsuario" classname="com.jrodriguesaugusto.testes.service.LocacaoServiceTest" time="0.003"/>
+  <testcase name="deveCalcularValorLocacao" classname="com.jrodriguesaugusto.testes.service.LocacaoServiceTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jrodriguesaugusto.testes.service.CalculadoraTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-04-25T12:24:10" hostname="LAPTOP-5IOH8A39" time="0.005">
+  <properties/>
+  <testcase name="deveSomarDoisValores" classname="com.jrodriguesaugusto.testes.service.CalculadoraTest" time="0.003"/>
+  <testcase name="deveDividir" classname="com.jrodriguesaugusto.testes.service.CalculadoraTest" time="0.0"/>
+  <testcase name="deveLancarExcecaoAoDividirPorZero" classname="com.jrodriguesaugusto.testes.service.CalculadoraTest" time="0.0"/>
+  <testcase name="deveSubtrairDoisValores" classname="com.jrodriguesaugusto.testes.service.CalculadoraTest" time="0.0"/>
+  <testcase name="deveDividirDoisValores" classname="com.jrodriguesaugusto.testes.service.CalculadoraTest" time="0.0"/>
+  <system-out><![CDATA[Estou executando o mÃ©todo somar
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
