@@ -52,8 +52,11 @@ import org.powermock.reflect.Whitebox;
 @PrepareForTest({LocacaoService.class})
 public class LocacaoServiceTest {
 
+
+
     @InjectMocks
     private LocacaoService service;
+
 
     @Mock
     private SPCService spc;
@@ -93,7 +96,7 @@ public class LocacaoServiceTest {
 
         //verificacao
         error.checkThat(locacao.getValor(), is(equalTo(5.0)));
-//		error.checkThat(locacao.getDataLocacao(), ehHoje());
+//        error.checkThat(locacao.getDataLocacao(), ehHoje());
 //		error.checkThat(locacao.getDataRetorno(), ehHojeComDiferencaDias(1));
         error.checkThat(DataUtils.isMesmaData(locacao.getDataLocacao(), DataUtils.obterData(28, 4, 2017)), is(true));
         error.checkThat(DataUtils.isMesmaData(locacao.getDataRetorno(), DataUtils.obterData(29, 4, 2017)), is(true));

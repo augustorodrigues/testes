@@ -10,6 +10,7 @@ public class AssertTest {
     public void test(){
         Assert.assertTrue(true);
         Assert.assertFalse(false);
+        Assert.assertFalse("casa".length() == 6);
 
         Assert.assertEquals("Erro de comparacao", 1, 1);
         Assert.assertEquals(0.51234, 0.512, 0.001);
